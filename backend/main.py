@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from core.config import settings
 from db.session import engine
-from db.baseclass import Base
+from db.base import Base
 
 # app=FastAPI(title=settings.PROJECT_TITLE,version=settings.PROJECT_VERSION)
 
